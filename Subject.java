@@ -9,4 +9,5 @@ public interface Subject {
 
     // get updates from subject
 	public Object getUpdate(Observer obj);
+    
 }
