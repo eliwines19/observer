@@ -11,9 +11,9 @@ public class ProductSubscriber implements Observer {
     public void update() {
         String msg = (String) product.getUpdate(this);
         if (msg == null) {
-            System.out.println(name + ":: no new message");
+            System.out.println(name + ": no new message!");
         } else {
-            System.out.println(name + ":: Consuming Message::" + msg);
+            System.out.println(name + " - Receiving Message: " + msg);
         }
     }
 
